@@ -40,7 +40,7 @@ Each item in the list is a JSON object with the following structure:
 | `pricing`                    | `"FREE" \| "FREEMIUM \| "PREMIUM" \| "UNKNOWN"` | Indicates whether the service is free or paid.                                                  |
 | `domains`                    | `array`                                         | An array of objects containing information about thge domains used by the email relay provider. |
 | `domains.domain`             | `string`                                        | The domain name used by the email relay provider.                                               |
-| `domains.pricing`            | `"FREE" \| "FREEMIUM \| "PREMIUM" \| "UNKNOWN"` | Indicates whether the domain is free or paid.                                                   |
+| `domains.pricing`            | `"FREE" \| "PREMIUM" \| "UNKNOWN"` | Indicates whether the domain is free or paid.                                                   |
 | `domains.mxRecords`          | `array`                                         | An array of objects containing information about the MX records used by the meail provider.     |
 | `domains.mxRecords.priority` | `integer`                                       | The priority of the MX record.                                                                  |
 | `domains.mxRecords.hostname` | `string`                                        | The hostname of the MX record.                                                                  |

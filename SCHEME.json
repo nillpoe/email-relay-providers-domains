@@ -32,7 +32,6 @@
                             "type": "string",
                             "enum": [
                                 "FREE",
-                                "FREEMIUM",
                                 "PREMIUM",
                                 "UNKNOWN"
                             ]
