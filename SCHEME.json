@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "homepage": {
+                "type": "string",
+                "format": "uri"
+            },
+            "free": {
+                "type": "boolean"
+            },
+            "domains": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "domain": {
+                            "type": "string"
+                        },
+                        "mxRecords": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "priority": {
+                                        "type": "integer"
+                                    },
+                                    "hostname": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": ["priority", "hostname"]
+                            }
+                        }
+                    },
+                    "required": ["domain", "mxRecords"]
+                }
+            }
+        },
+        "required": ["name", "homepage", "free", "domains"]
+    }
+}
