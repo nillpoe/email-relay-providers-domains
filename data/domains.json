@@ -1,1 +1,337 @@
-[]
+[
+    {
+        "name": "Proton Pass",
+        "homepage": "https://pass.proton.me/",
+        "pricing": "FREE",
+        "domains": [
+            {
+                "domain": "passmail.net",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "passmail.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "passinbox.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "passfwd.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DuckDuckGo Email Protection",
+        "homepage": "https://duckduckgo.com/email",
+        "pricing": "FREE",
+        "domains": [
+            {
+                "domain": "duck.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 5,
+                        "hostname": "smtp-inbound1.duck.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "addy.io",
+        "homepage": "https://addy.io/",
+        "pricing": "FREEMIUM",
+        "domains": [
+            {
+                "domain": "anonaddy.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 5,
+                        "hostname": "mail2.anonaddy.me"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mail.anonaddy.me"
+                    }
+                ]
+            },
+            {
+                "domain": "anonaddy.me",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 5,
+                        "hostname": "mail2.anonaddy.me"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mail.anonaddy.me"
+                    }
+                ]
+            },
+            {
+                "domain": "*.anonaddy.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 5,
+                        "hostname": "mail2.anonaddy.me"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mail.anonaddy.me"
+                    }
+                ]
+            },
+            {
+                "domain": "*.anonaddy.me",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 5,
+                        "hostname": "mail2.anonaddy.me"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mail.anonaddy.me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SimpleLogin",
+        "homepage": "https://simplelogin.io/",
+        "pricing": "FREEMIUM",
+        "domains": [
+            {
+                "domain": "simplelogin.com",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "aleeas.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "8alias.com",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "slmails.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "silomails.com",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "8shield.net",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "dralias.com",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "slmail.me",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            },
+            {
+                "domain": "simplelogin.fr",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx1.simplelogin.co"
+                    },
+                    {
+                        "priority": 20,
+                        "hostname": "mx2.simplelogin.co"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hide My Email",
+        "homepage": "icloud.com",
+        "pricing": "PREMIUM",
+        "domains": [
+            {
+                "domain": "icloud.com",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx02.mail.icloud.com"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mx01.mail.icloud.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HideMail",
+        "homepage": "https://hidemail.app/",
+        "pricing": "FREEMIUM",
+        "domains": [
+            {
+                "domain": "relay.hidemail.app",
+                "pricing": "FREE",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mx.sendgrid.net"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mailphantom",
+        "homepage": "https://mailphantom.io",
+        "pricing": "PREMIUM",
+        "domains": [
+            {
+                "domain": "smidazzle.com",
+                "pricing": "PREMIUM",
+                "mxRecords": [
+                    {
+                        "priority": 10,
+                        "hostname": "mxb.eu.mailgun.org"
+                    },
+                    {
+                        "priority": 10,
+                        "hostname": "mxa.eu.mailgun.org"
+                    }
+                ]
+            }
+        ]
+    }
+]
