@@ -2,7 +2,7 @@
     {
         "name": "Proton Pass",
         "homepage": "https://pass.proton.me/",
-        "pricing": "FREE",
+        "pricing": "FREEMIUM",
         "domains": [
             {
                 "domain": "passmail.net",
