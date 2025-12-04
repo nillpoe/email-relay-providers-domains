@@ -11,8 +11,13 @@
                 "type": "string",
                 "format": "uri"
             },
-            "free": {
-                "type": "boolean"
+            "pricing": {
+                "type": "string",
+                "enum": [
+                    "FREE",
+                    "FREEMIUM",
+                    "PREMIUM"
+                ]
             },
             "domains": {
                 "type": "array",
@@ -42,6 +47,6 @@
                 }
             }
         },
-        "required": ["name", "homepage", "free", "domains"]
+        "required": ["name", "homepage", "pricing", "domains"]
     }
 }
