@@ -16,7 +16,8 @@
                 "enum": [
                     "FREE",
                     "FREEMIUM",
-                    "PREMIUM"
+                    "PREMIUM",
+                    "UNKNOWN"
                 ]
             },
             "domains": {
@@ -26,6 +27,15 @@
                     "properties": {
                         "domain": {
                             "type": "string"
+                        },
+                        "pricing": {
+                            "type": "string",
+                            "enum": [
+                                "FREE",
+                                "FREEMIUM",
+                                "PREMIUM",
+                                "UNKNOWN"
+                            ]
                         },
                         "mxRecords": {
                             "type": "array",
@@ -43,7 +53,7 @@
                             }
                         }
                     },
-                    "required": ["domain", "mxRecords"]
+                    "required": ["domain", "pricing", "mxRecords"]
                 }
             }
         },
